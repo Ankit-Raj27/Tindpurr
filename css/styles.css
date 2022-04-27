@@ -17,8 +17,12 @@ h1{
     line-height: 1.5;
     
 }
+/* Donwload button */
 button{
     margin-top: 40px;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
 }
 
 /* Navbar */
@@ -40,4 +44,36 @@ button{
 }
 .cat-iphone{
     margin-top: -100px;
+}
+
+/* Title image */
+
+.cat-iphone{
+    height: 700px;
+    transform: rotate(25deg);
+}
+
+/* Features icons */
+.features-icon{
+    height: 6rem;
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.features-icon:hover{
+    color:#ff4c68;
+}
+#features{
+    padding:3% 15%;
+}
+#features h3{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 900;
+    font-size:1.2rem;
+}
+.feature-info{
+    text-align: center;
+    padding: 5%;
+}
+p{
+    color:#8f8f8f
 }
