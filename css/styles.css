@@ -5,6 +5,8 @@ body{
 {
     background-color:#ff4c68;
     color:white;
+    z-index:-1;
+    padding-bottom: 90px;
 }
 .container-fluid{
     padding: 3% 15%;
@@ -42,15 +44,15 @@ button{
     font-size:1.2rem;
     font-weight: 300;
 }
-.cat-iphone{
-    margin-top: -100px;
-}
 
 /* Title image */
 
 .cat-iphone{
-    height: 700px;
-    transform: rotate(25deg);
+    margin-top:-60px;
+    height: 800px;
+    transform: rotate(18deg);
+    position: absolute;
+    z-index: 1;
 }
 
 /* Features icons */
@@ -63,7 +65,10 @@ button{
     color:#ff4c68;
 }
 #features{
-    padding:3% 15%;
+    background-color: white;
+    padding:7% 15%;
+    position: relative;
+    z-index: 1;
 }
 #features h3{
     font-family: "Montserrat",sans-serif;
@@ -105,4 +110,57 @@ h2{
 .press-logo{
     width: 15%;
     margin: 20px 20px 50px ;
+}
+#pricing
+{
+    padding:100px;
+    text-align: center;
+}
+.pricing-column
+{
+    padding:3% 2%;
+}
+
+#cta
+{
+    background-color: #ff4c68;
+    text-align: center;
+    color:White;
+    padding: 7% 15%;
+    
+}
+.cta-heading{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 900;
+    font-size:3.5rem;
+    text-align: center;
+    line-height: 1.5;
+}
+#cta button{
+    margin-left:5px;
+    margin-right:5px;
+}
+#footer{
+    text-align: center;
+    background-color:#fff;
+    padding:3% 15%;
+
+}
+.footer-icons{
+    margin: 20px 10px ;
+}
+.footer-icons:hover{
+    cursor:pointer;
+}
+
+
+@media (max-width:1028px) {
+    #title{
+        text-align: center;   
+        padding:0%;  
+    }
+    .cat-iphone{
+        position:static;
+        transform:rotate(0deg);
+    }
 }
