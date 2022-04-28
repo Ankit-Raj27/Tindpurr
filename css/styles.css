@@ -164,3 +164,13 @@ h2{
         transform:rotate(0deg);
     }
 }
+@media (max-width:600px) {
+    #title{
+        text-align: center;   
+        padding:0%;  
+    }
+    .cat-iphone{
+        position:static;
+        transform:rotate(0deg);
+    }
+}
